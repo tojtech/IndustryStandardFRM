@@ -17,7 +17,6 @@ Feature: Adding search functionality on Doctors page
     |         %362     |    pass2      |
 
 
-  @Smoke
   Scenario: test first name on Doctors page
     Given User opens Doctors page
     When User types first name of the Doctor

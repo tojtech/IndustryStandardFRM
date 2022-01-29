@@ -2,7 +2,7 @@ Feature: Sign In
 
   Background:
 
-  @Smoke @REGRESSION
+  @REGRESSION
   Scenario: Open start page
     Given user opens index page
     And user clicks at Customers section
