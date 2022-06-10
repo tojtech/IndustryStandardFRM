@@ -14,14 +14,14 @@ import static com.example.CucumberHooks.getDriver;
  */
 public class GlobalSteps {
 
-   @Given("^User opens Dell Home Page$")
-    public DellHomePage iOpenDoctorsPage() throws InterruptedException {
+    @Given("^I am a logged out GitHub User$")
+    public GitHubHomePage iOpenDoctorsPage() throws InterruptedException {
 //        Base URL is read from config.properties file located in resources folder. Key is base.url
         String baseUrl = TestsConfig.getConfig().getBaseUrl();
         getDriver().get(baseUrl);
         Thread.sleep(500);
 
-        return new DellHomePage();
+        return new GitHubHomePage();
     }
 
     @When("sleep")
