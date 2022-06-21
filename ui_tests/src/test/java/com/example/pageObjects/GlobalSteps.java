@@ -14,7 +14,7 @@ import static com.example.CucumberHooks.getDriver;
  */
 public class GlobalSteps {
 
-    @Given("^I am a logged out GitHub User$")
+    @Given("^I am a logged out GitHub user$")
     public GitHubHomePage iOpenDoctorsPage() throws InterruptedException {
 //        Base URL is read from config.properties file located in resources folder. Key is base.url
         String baseUrl = TestsConfig.getConfig().getBaseUrl();

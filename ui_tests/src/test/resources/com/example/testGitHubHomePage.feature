@@ -1,8 +1,8 @@
-Feature: HomePage Tests
+Feature: HomePage Tests GITHUB
 
   @Regression @GHID-2307
   Scenario Outline: test transition between Home Page and Sign Up Page
-    Given I am a logged out GitHub User
+    Given I am a logged out GitHub user
     And I should see Home Page Title displayed
     And Home Page Title should contain text 'Where the world builds software'
     When I type "<email>" to Email address field
